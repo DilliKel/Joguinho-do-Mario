@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: pixel;
-  src: url(font/PixelGameFont.ttf);
+  src: url(./src/font/PixelGameFont.ttf);
 }
 
 .game-board {
