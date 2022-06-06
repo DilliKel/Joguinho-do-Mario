@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="pt-br">
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -8,12 +9,29 @@
     <script src="./src/js/script.js" defer></script>
 
     <title>Mario Saltador</title>
-  </head>
-  <body>
+</head>
+<body>
     <div class="game-board">
-      <img src="./src/images/clouds.png" class="clouds" />
-      <img src="./src/images/mario.gif" class="mario" />
-      <img src="./src/images/pipe.png" class="pipe" />
+
+        <div class="contagem">
+            <h2>O jogo vai comecar em...</h2>
+
+            <p id="cont">5</p>
+        </div>
+
+        <div class="point"> 
+            <p>Pontos:</p> 
+            <h1 id="ponto"></h1>
+        </div>
+
+        <img src="./src/images/clouds.png" class="clouds">
+
+        <img src="./src/images/pipe.png" class="pipe">
+
+        <img src="./src/images/gameover.png" class="over-tela">
+
+        <img src="./src/images/mario.gif" class="mario">
+
     </div>
-  </body>
+</body>
 </html>
